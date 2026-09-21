@@ -1,0 +1,24 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- LibraryImport generates unsafe marshalling stubs. -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- These controls are built in code and never opened in the designer, so
+         the designer-serialization analyzer has nothing useful to say here. -->
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+  </PropertyGroup>
+
+  <!-- Every project lands in one folder so the launcher can find its siblings
+       by filename instead of guessing at per-project bin paths. -->
+  <PropertyGroup>
+    <OutputPath>$(MSBuildThisFileDirectory)build\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+  </PropertyGroup>
+
+</Project>

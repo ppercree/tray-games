@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>TrayGame.Minesweeper</AssemblyName>
+    <RootNamespace>TrayGames.Minesweeper</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TrayGames.Core\TrayGames.Core.csproj" />
+  </ItemGroup>
+
+</Project>

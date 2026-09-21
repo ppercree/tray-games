@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/Games/" />
+  <Folder Name="/Games/ConnectFour/">
+    <Project Path="Games/ConnectFour/TrayGame.ConnectFour.csproj" />
+  </Folder>
+  <Folder Name="/Games/Koi/">
+    <Project Path="Games/Koi/TrayGame.Koi.csproj" />
+  </Folder>
+  <Folder Name="/Games/Minesweeper/">
+    <Project Path="Games/Minesweeper/TrayGame.Minesweeper.csproj" />
+  </Folder>
+  <Folder Name="/Games/Snake/">
+    <Project Path="Games/Snake/TrayGame.Snake.csproj" />
+  </Folder>
+  <Folder Name="/Games/Stacks/">
+    <Project Path="Games/Stacks/TrayGame.Stacks.csproj" />
+  </Folder>
+  <Folder Name="/Games/Tetris/">
+    <Project Path="Games/Tetris/TrayGame.Tetris.csproj" />
+  </Folder>
+  <Folder Name="/Games/TicTacToe/">
+    <Project Path="Games/TicTacToe/TrayGame.TicTacToe.csproj" />
+  </Folder>
+  <Folder Name="/Launcher/">
+    <Project Path="Launcher/TrayGames.Launcher.csproj" />
+  </Folder>
+  <Project Path="TrayGames.Core/TrayGames.Core.csproj" />
+</Solution>
